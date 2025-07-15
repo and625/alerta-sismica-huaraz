@@ -82,10 +82,6 @@ ax.set_title('Anticipación estimada por sensor')
 plt.xticks(rotation=45)
 st.pyplot(fig)
 
-# Botón de alerta
-if st.button("🔔 Simular Alerta Sísmica"):
-    st.warning("¡ALERTA SÍSMICA ACTIVADA! El sistema ha detectado una onda sísmica cercana.")
-
 # Contacto
 st.markdown("---")
 st.markdown("### 📞 Contacto")
@@ -104,4 +100,4 @@ if st.button("Enviar sugerencia"):
 
 # Advertencia sobre el timbre
 st.markdown("---")
-st.markdown("ℹ️ Por temas de seguridad del navegador, la simulación de audio de alerta (timbre) debe activarse manualmente. Puedes implementarla localmente con JavaScript.")
+st.markdown("GRACIAS POR VISITARNOS")
